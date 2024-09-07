@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+        <h1 id="title">HEALT SURVEY</h1>
+        <p id="description">Thank you for completing this survey</p>
+
+        <form class="survey-form" id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+          <fieldset class="personal-info">
+            <legend>Personal information</legend>
+            <label id="name-label" for="name">Name<input type="text" id = "name" placeholder="Enter your name" required></label>
+            <label id="email-label" for="email">Email <input type="email" id = "email" placeholder="Enter your email" required></label>
+            <label id="number-label" for="age">Age <input type="number" id = "number" min="13" max="120" placeholder="Enter your age" required ></label>
+          </fieldset>
+
+          <fieldset class="gender">
+            <legend>Gender: </legend>
+              <label id="man-gender" for="man">Man<input type="radio" id = "man" name = "gender" class="inline" value="man"></label>
+              <label id="woman-gender" for="woman">Woman<input type="radio" id = "woman" name = "gender" class="inline" value="woman"></label>
+              <label id="other-gender" for="other">Other<input type="radio" id = "other" name = "gender" class="inline" value="other"></label>
+          </fieldset>
+
+          <fieldset>
+              <legend>Which option best describes your current role?</legend>
+                  <select id="dropdown" name="dropdown">
+                      <option value="">Select a current role</option>
+                      <option value="1">Student</option>
+                      <option value="2">Employee</option>
+                      <option value="3">Entrepreneur</option>
+                      <option value="4">Retired</option>
+                  </select>
+          </fieldset>
+
+          <fieldset>
+              <legend>Select your health goals</legend>
+              <label>Eat healty<input type="checkbox" name="goals" value="eat-healthy" class="inline" ></label>
+              <label>Rest better<input type="checkbox" name="goals" value="rest-better" class="inline" ></label>
+              <label>Gain muscle<input type="checkbox" name="goals" value="gain-muscle" class="inline" ></label>
+              <label>Lose fat<input type="checkbox" name="goals" value="lose-fat" class="inline" ></label>
+              <label>Feel better<input type="checkbox" name="goals" value="feel-better" class="inline" ></label>
+              <label>Prevent health problemas<input type="checkbox" value="prevent-problems" name="goals" class="inline" ></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>How would it make you feel if you achieve your health goals?</legend>
+          <label for="bio-goals">
+              <textarea id="bio-goals" name="bio-goals" rows="3" cols="30" placeholder="I would feel..."></textarea>
+          </label>
+          </fieldset>
+          <br>
+          <fieldset class="terms">
+              <label for="terms-and-conditions">
+                  <input id="terms-and-conditions" type="checkbox" value="terms" required name="terms-and-conditions" /> I accept the terms and conditions</a>
+              </label>
+              <label for="news">
+                  <input id="news" type="checkbox" value="news"></input> Do you agree that my team or I may contact you with high-value content?
+              </label>
+          </fieldset>
+          <div class="btn">
+            <input type="submit" id="submit" value="Submit" />          
+          </div>
+        </form>
+    </div>
+    
+  </body>

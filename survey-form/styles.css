@@ -1,0 +1,71 @@
+body{
+    font-family: "Lora", serif;
+    background-image: url(https://images4.alphacoders.com/692/692043.jpg);
+}
+h1{
+    border-bottom: 1px solid #888989;
+}
+h1,p{
+    text-align: center;
+    margin: auto;
+}
+p{
+    margin: 10px;
+}
+.inline{
+    order:-1;
+}
+.container{
+    width: 500px;
+    display: block;
+    margin: auto;
+    background-color:#e2e2e2;
+    text-align: left;
+    border-radius: 1rem;
+    border: 2px solid
+}
+.btn{
+    text-align: center;
+    padding: 20px;
+}
+label{
+    display: flex;
+    align-items: center ;
+}
+legend{
+    font-weight: 700;
+}
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.personal-info label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.personal-info input{
+    margin-top: 5px;
+    width: 100%;
+}
+.personal-info label{
+    font-size: 13px;
+}
+input[type=radio], label{
+    gap:3px;
+}
+textarea{
+    resize: none;
+    width:100%;
+    height:100px;
+}
+.terms{
+    order:-1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.terms label input{
+    margin: 15px;
+}
