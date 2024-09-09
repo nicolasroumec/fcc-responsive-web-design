@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'River' ;
+    src: url(/fonts/river-font.ttf);
+}
+html{
+    font-family: 'River';
+    background-color: #b2b4b2;
+}
+header{
+    background-color: #53565a;
+}
+
+#image{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 1em;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+}
+#img-div{
+    max-width: 100%;
+    padding: 10px 0px;
+}
+#img-caption{
+    text-align: center;
+}
+#tribute-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left; 
+    flex-direction: column;
+  }
+h3{
+    text-align: center;
+}
+img{
+    display: block;
+}
+#tribute-info h2 {
+    margin-bottom: 10px;
+    margin-top: 5px;  
+}
+  
+  #tribute-info ul {
+    margin-top: 0; 
+}
+.separator {
+    border: none;
+    height: 4px;
+    background-color: #DA291C; 
+    width: 100%; 
+}
+#info-img{
+    max-width: 100%;
+}
+a{
+    color:#53565a
+}
+a:hover{
+    color: #DA291C;
+}
