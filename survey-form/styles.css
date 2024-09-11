@@ -2,9 +2,6 @@ body{
     font-family: "Lora", serif;
     background-image: url(https://images4.alphacoders.com/692/692043.jpg);
 }
-h1{
-    border-bottom: 1px solid #888989;
-}
 h1,p{
     text-align: center;
     margin: auto;
@@ -68,4 +65,19 @@ textarea{
 }
 .terms label input{
     margin: 15px;
+}
+fieldset{
+    border:none;
+}
+input[type=submit]{
+    height: 35px;
+    width: 130px;
+    background-color: #343741;
+    color: #B8BAB8;
+    font-family: "Lora", serif;
+    font-weight: 700;
+}
+input[type=submit]:hover{
+    color: #343741;
+    background-color: #B8BAB8;
 }
