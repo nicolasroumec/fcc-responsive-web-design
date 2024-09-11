@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Python documentation</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Hello_world" class="nav-link">Hello world</a>
+        <a href="#Variables_and_data_types" class="nav-link">Variables and data types</a>
+        <a href="#Operators" class="nav-link">Operators</a>
+        <a href="#Control_structures" class="nav-link">Control structures</a>
+        <a href="#Loops" class="nav-link">Loops</a>
+
+    </nav>
+    <main id="main-doc">
+
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Python is a high-level, interpreted programming language with a simple syntax. It is used in various applications like web development, data science, automation, and more.</p>
+                <p>Its simplicity and focus on readability make it ideal for both beginners and advanced programmers.</p>
+                <ul>
+                    <li><b>Simple and Readable Syntax:</b> Python stands out for its clean syntax, making it easy to read and write code. Code blocks are defined using indentation instead of braces or keywords.</li>
+                    <li><b>Dynamic Typing:</b> There is no need to explicitly declare variable types; Python infers the data type automatically.</li>
+                    <li><b>Interactivity:</b> Python can be executed interactively in the console, allowing quick testing of code snippets. </li>
+                    <li><b>Widely Used:</b> Popular in areas such as web development, automation, data science, artificial intelligence, and software development in general.</li>
+                    <li><b>Extensive Libraries:</b> Python has a vast standard library and thousands of third-party libraries (such as numpy, pandas, matplotlib, etc.) that extend its capabilities.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="main-section" id="Hello_world">
+            <header>Hello world</header>
+            <article>
+                <p>A simple example that prints text to the console, demonstrating Python's basic syntax for output. This is often the first program written when learning a new language.</p>
+                <pre>
+                    <code>
+                        print("Hello, World!")
+                    </code>
+                </pre>
+                <p>print() is the basic function to display output in the console.</p> 
+            </article>
+        </section>
+
+        <section class="main-section" id="Variables_and_data_types">
+            <header>Variables and data types</header>
+            <article>
+                <p>In Python, variables are dynamically typed, meaning you don’t need to explicitly declare their data type.</p>
+                <p>Python supports several basic data types, including strings, integers, floats, and booleans.</p>
+                <pre>
+                    <code>
+                        name = "John"    # String
+                        age = 25         # Integer
+                        price = 19.99    # Float
+                        is_adult = True  # Boolean
+                    </code>
+                </pre>
+            </article>
+        </section>
+
+        <section class="main-section" id="Operators">
+            <header>Operators</header>
+            <article>
+                <p>Operators in Python are used to perform operations on variables and values. Arithmetic operators perform mathematical calculations, comparison operators compare values, and logical operators evaluate conditions.</p>
+                <p>Python supports arithmetic operators (+, -, *, /, %), comparison operators (==, !=, <, >) and logical operators (and, or, not).</p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Control_structures">
+            <header>Control structures</header>
+            <article>
+                <p>Python uses if, else, and elif statements to control the flow of the program based on certain conditions. Indentation is crucial for defining code blocks in these structures.</p>
+                <pre>
+                    <code>
+                        if age >= 18:
+                        print("Is an adult")
+                        else:
+                        print("Is not an adult")
+                    </code>
+                </pre>
+            </article>
+        </section>
+
+        <section class="main-section" id="Loops">
+            <header>Loops</header>
+            <article>
+                <p>for loop: Used to iterate over sequences (lists, tuples, dictionaries).</p>
+                <pre>
+                    <code>
+                        for i in range(5):
+                            print(i)
+                    </code>
+                </pre>
+                <p>while loop: Repeats a block of code while the condition is true.</p>
+                <pre>
+                    <code>
+                        counter = 0
+                        while counter < 5:
+                            print(counter)
+                            counter += 1
+                    </code>
+                </pre>
+            </article>
+        </section>
+
+    </main>
+</body>
+</html>
