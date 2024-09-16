@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing page</title>
+</head>
+<header id="header">
+    <nav id="nav-bar">
+        <img id="header-img" src="images/logo.png">
+        <h1>ELITE GYM</h1>
+        <ul>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#video" class="nav-link">Our trainings</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <div id="form-div">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <p>Enter your email for more information</p>
+                <input name="email" type="email" id="email" placeholder="Enter your email">
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+        <div id="features">
+            <div class="feature-item">
+                <img class="feature-img" src="images/muscle.png" alt="Professional Training">
+                <div class="feature-text">
+                    <h2>Professional Training</h2>
+                    <p>We have certified trainers who will guide you step by step through your fitness improvement process. We adapt exercises to your needs so that you can achieve your goals efficiently and safely.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <img class="feature-img" src="images/lift.png" alt="Top-Tier Equipment">
+                <div class="feature-text">
+                    <h2>Top-Tier Equipment</h2>
+                    <p>In our gym, you will find the latest machines and training tools. All equipment is regularly inspected to ensure optimal performance and your safety.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <img class="feature-img" src="images/tracker.png" alt="Personalized Workouts">
+                <div class="feature-text">
+                    <h2>Personalized Workouts</h2>
+                    <p>We design workout routines based on your goals and fitness level, ensuring that each session is effective and tailored to your abilities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-div">
+            <iframe id="video" width="800" height="415" src="https://www.youtube.com/embed/fLGa5w3IVPA?si=KL_iSEUwhK8Hrbi6" 
+            title="Elite Training" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="pricing" id="pricing">
+            <div class="card">
+                <h3>Basic Plan</h3>
+                <h4>$50</h4>
+                <p>Group sessions 3 times a week and a basic workout plan.</p>
+                <button class="select-btn">Select</button>
+            </div>
+            <div class="card">
+                <h3>Intermediate Plan</h3>
+                <h4>$100</h4>
+                <p>Group sessions 5 times a week, a personalized workout plan, and a monthly trainer consultation.</p>
+                <button class="select-btn">Select</button>
+            </div>
+            <div class="card">
+                <h3>Advanced Plan</h3>
+                <h4>$180</h4>
+                <p>Unlimited group sessions, personalized workout plan, weekly trainer consultations, and a nutrition plan.</p>
+                <button class="select-btn">Select</button>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>

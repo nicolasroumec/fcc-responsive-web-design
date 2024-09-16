@@ -1,0 +1,138 @@
+body {
+    font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+    background-color:#c9c0bd;
+    height: 1400px;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding-top: 200px;
+    background-color:#c9c0bd;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    top:0;
+    padding: 10px;
+    font-weight: bold;
+    position: fixed;
+    background-color: #938586;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#header-img{
+    height: 150px;
+    padding: 0 20px;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+#form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+#form > p{
+    font-size: larger;
+}
+#email{
+    height: 30px;
+    width: 300px;
+}
+#submit{
+    height: 30px;
+    width: 100px;
+    text-transform: uppercase;
+    border: 1.5px black solid;
+    cursor: pointer;
+    background-color: #D4D4D4; 
+    font-weight: 900;
+}
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 800px;
+    text-align: left; 
+}
+.feature-img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px; 
+}
+.video-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.8rem 0
+}
+.pricing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    padding-top:1.8rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    height: 190px;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+h3{
+    font-size: 20px;
+    background-color: #938586;
+}
+.card > p{
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+h4{
+    padding-top:15px;
+    font-size: 20px;
+}
+.select-btn{
+    height: 40px;
+    width: 100px;
+    align-self: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 1.5px black solid;
+    cursor: pointer;
+    background-color: #D4D4D4;
+}
+
+@media only screen and (min-width: 600px) {
+    #nav-bar{
+        flex-direction: row;
+    }
+}
+@media only screen and (450px < width < 600px) {
+    #nav-bar{
+        flex-direction: row;
+    }
+}
